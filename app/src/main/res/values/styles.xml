@@ -1,0 +1,31 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textColorHint">@color/editTextBG</item>
+        <item name="android:navigationBarColor">@color/navbar</item>
+        <item name="popupTheme">@style/popupBG</item>
+        <item name="android:editTextColor">@color/editText</item>
+    </style>
+
+
+
+      <!--add this code in style.xml inside the AppTheme style tag <item name="popupTheme">@style/popupBG</item>-->
+
+          <!--  the below code goes outside of the AppTheme style tag  -->
+
+          <style name="popupBG" parent="Theme.AppCompat.Light">
+
+              <item name="android:background">@color/popupbackground</item>
+
+              <item name="android:textColor">@color/popupTextColor</item>
+
+              <item name="android:textSize">14sp</item>
+          </style>
+
+
+</resources>
